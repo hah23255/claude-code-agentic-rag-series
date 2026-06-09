@@ -22,6 +22,7 @@ This project was built collaboratively with Claude Code across multiple video ep
 | [Episode 4](./ep4-skills-sandbox-video/) | **Agent Skills & Code Sandbox** | Reusable skills system + Python execution in Docker containers |
 | [Episode 5](./ep5-advanced-tool-use/) | **Advanced Tool Calling** | Dynamic tool registry, sandbox bridge, MCP integration |
 | [Episode 6](./ep6-agent-harness/) | **Agent Harness & Workflows** | Deep Mode autonomous agent, domain-specific harness engine, contract review workflow |
+| [Episode 7](./ep7-citations/) | **Citations & Source Grounding** | Evidence-marked context, clickable citations to exact PDF/text/web evidence, on-demand grounding verification |
 
 ## The App
 
@@ -29,7 +30,7 @@ The Agentic RAG App is a full-stack AI application built on **Python, React, and
 
 It includes user authentication, a chat interface, document ingestion, and a complete RAG pipeline with hybrid search and reranking. The chat supports agentic features like text-to-SQL, web search, sub-agents, and a knowledge base explorer with filesystem-like tools.
 
-Advanced features include an Agent Skills system, a code sandbox for executing Python in isolated Docker containers, PII redaction for removing sensitive data, and a full autonomous agent platform with Deep Mode for multi-step tasks and a domain-specific harness engine for deterministic workflows (including a contract review harness with DOCX report generation).
+Advanced features include an Agent Skills system, a code sandbox for executing Python in isolated Docker containers, PII redaction for removing sensitive data, a full autonomous agent platform with Deep Mode for multi-step tasks and a domain-specific harness engine for deterministic workflows (including a contract review harness with DOCX report generation), and a citations layer that grounds every answer in source evidence — clickable chips that jump to the exact bounding box on a PDF, a highlighted passage in extracted text, or a captured web snapshot, with one-click grounding verification.
 
 ## Choose Your Path
 
